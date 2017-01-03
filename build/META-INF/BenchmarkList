@@ -1,0 +1,2 @@
+JMH S 24 com.ms.tech.JMHStreaming S 62 com.ms.tech.generated.JMHStreaming_iterativeAggregates_jmhTest S 19 iterativeAggregates S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 24 com.ms.tech.JMHStreaming S 59 com.ms.tech.generated.JMHStreaming_streamAggregates_jmhTest S 16 streamAggregates S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
