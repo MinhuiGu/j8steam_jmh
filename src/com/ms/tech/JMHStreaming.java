@@ -8,10 +8,9 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.openjdk.jmh.runner.options.VerboseMode;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 /**
  * i - number of benchmarked iterations, use 10 or more to get a good idea
@@ -36,8 +35,6 @@ public class JMHStreaming {
         }
     }
 
-
-    /*
     @Benchmark
     //@BenchmarkMode({Mode.AverageTime, Mode.Throughput, Mode.SingleShotTime})
     @BenchmarkMode(Mode.AverageTime)
@@ -187,7 +184,6 @@ public class JMHStreaming {
         return groups;
     }
 
-*/
     @Benchmark
     //@BenchmarkMode({Mode.AverageTime, Mode.Throughput, Mode.SingleShotTime})
     @BenchmarkMode(Mode.AverageTime)
